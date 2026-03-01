@@ -3,31 +3,43 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Odus")
 
 
 # The game starts here.
 
 label start:
+    "Doctor A." "You have worsening symptoms consistent with Lewy-Body Dementia. Please inform your family and loved ones."
+    "Doctor A." "Do you live with someone who can suppport you? With someone with you?"
+    "Odus" "...."
+    "Doctor A." "Do you have local family?"
+    "Odus" "..."
+    "You just end up leaving the doctor's office, much to Doctor A's dismay. Talking about your daughter makes you upset..for reasons you can't really remember."
+    "You wake up... after a long night of little sleep."
+    "Do you decide to take your medicine or not?"
+    
+    "Mr.Pickles" "*meoww*"
+    "Odus" "mr.pickles?..Where are you?"
+    "You begin to feel a great sense of joy, like something you lost for so long finally came back."
+    "Ill /eeee/ wrhy"
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+label choices:
+    Odus "question?"
 
-    scene bg room
+menu:
+    "Take meds":
+        jump choices1_a:
+    "Dont take meds":
+        jump choices1_b:
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
 
-    show eileen happy
+label choices1_a:
+     "You slowly begin to see more clearly. You feel less groggy about the night and feel more alert and prepared to take on the next day."
+label choices1_b:
+    Odus "..What am I even taking this medicine for, anyway? I feel fine.."
 
-    # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
 
-    # This ends the game.
 
     return
