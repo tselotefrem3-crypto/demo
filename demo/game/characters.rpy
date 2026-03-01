@@ -1,6 +1,7 @@
-define o = Character("Odus", color="c8ffc8")
+define o = Character(o, color="c8ffc8")
 define x = Character("Michael", color="c8ffc8")
 define k = Character("Maria", color="c8ffc8")
 define b = Character("Mrs. Oliver", color = "c8ffc8")
 define z = Character("The Doctor", color="c8ffc8")
 define p = Character("Mrs. ???", color="c8ffc8")
+define j = Character("Josephine", color="c8ffc8")

@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define o = Character("Odus")
+define o = Character(o)
 
 
 # The game starts here.
@@ -14,23 +14,23 @@ label start:
 
     "The Doctor" "You have worsening symptoms consistent with Lewy-Body Dementia. Please inform your family and loved ones."
     "The Doctor" "Do you live with someone who can suppport you? With someone with you?"
-    "Odus" "...."
+    o "...."
     "The Doctor" "Do you have local family?"
-    "Odus" "...."
+    o "...."
     "You just end up leaving the doctor's office, much to Doctor A's dismay. Talking about your daughter makes you upset..for reasons you actually can't really remember."
 
     "You wake up... after a long night of little sleep."
     "Do you decide to take your medicine or not?"
     
     "Mr.Pickles" "*meoww*"
-    "Odus" "Mr.Pickles?..Where are you?"
+    o "Mr.Pickles?..Where are you?"
     "You begin to feel a great sense of joy, like something you lost for so long finally came back.."
     "Mr. Pickles!..Mr. Pickles?.."
 
     "The day fades away. You keep searching for Mr. Pickles..certain he's just hiding somewhere, or perhaps just tired or sleeping."
 
 label choices:
-"Odus" "Do you take your medicine?"
+o "Do you take your medicine?"
 
 menu:
     "Do you take your medicine?":
@@ -49,7 +49,7 @@ label choices1_b:
         #scene bg room2 with fade in
 
     Your phone rings from your daughter Maria
-"Odus" "Marina.. I haven't heard from her in months.. only calls when she needs something anyway."
+o "Marina.. I haven't heard from her in months.. only calls when she needs something anyway."
     jump choices1_d
      
     
@@ -119,7 +119,7 @@ label choices2_a:
 "Mrs. Clover” “3 days ago, July 31st.. You told us yes last week?”
 "Odus” “It's May."
 "Mrs. Clover” “What year is it? Gosh are you okay? You’ve been in your house for days, canceled your monthly steak dinners for 3 months straight. I haven’t seen you leave the house."
-"Odus" "Its the big 25.." 
+o "Its the big 25.." 
 jump choices3_b
   
 "Your shuffling gait had led you to fall flat on your face, and a harsh bruise on your right knee."
