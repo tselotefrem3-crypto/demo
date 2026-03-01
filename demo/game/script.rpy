@@ -9,6 +9,9 @@ define e = Character("Odus")
 # The game starts here.
 
 label start:
+
+    scene bg room1
+
     "Doctor A." "You have worsening symptoms consistent with Lewy-Body Dementia. Please inform your family and loved ones."
     "Doctor A." "Do you live with someone who can suppport you? With someone with you?"
     "Odus" "...."
@@ -39,7 +42,6 @@ label choices1_b:
     Odus "..What am I even taking this medicine for, anyway? I feel fine.."
 
 
-
-
+    scene bg room2 with fade
 
     return
