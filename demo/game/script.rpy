@@ -41,15 +41,15 @@ menu:
 
 
 label choices1_a:
-     "You slowly begin to see more clearly. You feel less groggy about the night and feel more alert and prepared to take on the next day."
-     jump choices1_c
+    "You slowly begin to see more clearly. You feel less groggy about the night and feel more alert and prepared to take on the next day."
+    jump choices1_c
 label choices1_b:
     Odus "..What am I even taking this medicine for, anyway? I feel fine.."
     "You begin to hear some faint meowing."
         #scene bg room2 with fade in
 
     Your phone rings from your daughter Maria
-     "Odus" "Marina.. I haven't heard from her in months.. only calls when she needs something anyway."
+"Odus" "Marina.. I haven't heard from her in months.. only calls when she needs something anyway."
     jump choices1_d
      
     
