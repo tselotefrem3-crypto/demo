@@ -22,7 +22,7 @@ label start:
     "You wake up... after a long night of little sleep."
     "Do you decide to take your medicine or not?"
     
-    "Mr.Pickles" "*meoww*"
+    m "*meoww*"
     o "Mr.Pickles?..Where are you?"
     "You begin to feel a great sense of joy, like something you lost for so long finally came back.."
     "Mr. Pickles!..Mr. Pickles?.."
