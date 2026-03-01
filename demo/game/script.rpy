@@ -80,7 +80,7 @@ label choices1_d:
 
 “Odus” “....” 
 
-“Marina” ‘“Come on, its her death anniversary, we should honor her by going to the old beach house.” 
+"Marina" "Come on, its her death anniversary, we should honor her by going to the old beach house.” 
 
 “Odus” “.. Okay..” 
 jump choices2_b
@@ -113,12 +113,12 @@ jump choices3_a
   
 #Walk Scene Chose Yes
 label choices2_a:
-“As you tremble along the stairs, walking down gripping the wooden railing. You hear a loud rapid knock on your door.”
-“Mrs. Clover” “Ah it's nice to see you Odus, I hope all is well. We didn't have you at David’s dinner. How come?”
-“Odus” “What day was it? I don’t even remember this.”
-“Mrs. Clover” “3 days ago, July 31st.. You told us yes last week?”
-“Odus” “It's May.”
-“Mrs. Clover” “What year is it? Gosh are you okay? You’ve been in your house for days, canceled your monthly steak dinners for 3 months straight. I haven’t seen you leave the house.”
+"As you tremble along the stairs, walking down gripping the wooden railing. You hear a loud rapid knock on your door.”
+"Mrs. Clover” “Ah it's nice to see you Odus, I hope all is well. We didn't have you at David’s dinner. How come?”
+"Odus” “What day was it? I don’t even remember this.”
+"Mrs. Clover” “3 days ago, July 31st.. You told us yes last week?”
+"Odus” “It's May."
+"Mrs. Clover” “What year is it? Gosh are you okay? You’ve been in your house for days, canceled your monthly steak dinners for 3 months straight. I haven’t seen you leave the house."
 "Odus" "Its the big 25.." 
 jump choices3_b
   
