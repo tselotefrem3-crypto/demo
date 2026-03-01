@@ -20,7 +20,7 @@ label start:
     
     "Mr.Pickles" "*meoww*"
     "Odus" "mr.pickles?..Where are you?"
-    "You begin to feel a great sense of joy, like something you lost for so long finally came back."
+    "You begin to feel a great sense of joy, like something you lost for so long finally came back.."
     "Ill /eeee/ wrhy"
 
 label choices:
