@@ -1,0 +1,1 @@
+define o = Character("Odus", color="c8ffc8")
